@@ -2,9 +2,10 @@
   $('.top').owlCarousel({
     loop:true,
     margin:10,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 5000,
     nav:false,
+    animateOut: 'fadeOut',
     responsive:{
         0:{
             items:1
@@ -24,13 +25,14 @@
     margin:10,
     autoplay: true,
     autoplayTimeout: 5000,
+    animateOut: 'fadeOut',
     nav:false,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         1000:{
             items:3

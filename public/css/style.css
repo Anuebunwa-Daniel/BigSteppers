@@ -2,24 +2,33 @@ body {
     font-family: 'Stint Ultra Condensed', serif;
     margin: 0;
 }
-#top-logo{
+
+#top-logo {
     width: 200px;
     height: 100px;
     display: block;
-    margin:10px auto;
-    border: 2px solid black;
+    margin: 10px auto;
+    /* border: 2px solid black; */
 }
-.logo{
 
+.logo {
+    background-color: rgb(218, 237, 241);
 }
+
 .navbar-nav {
     margin-left: auto;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.nav-item {
+    margin-right: 20px;
+
 }
 
 .top {
     margin-top: 50px;
+    font-family: "raleway", sans-serif;
 }
 
 .slide-container {
@@ -254,4 +263,102 @@ body {
 
 .footer-logo p {
     text-align: center;
+}
+
+.back-top {
+    float: right;
+
+    width: 100px;
+    margin-top: -50px;
+
+}
+
+.back-top a {
+    color: gray;
+}
+
+.back-top i {
+    margin-left: 20px;
+}
+
+.back-top a:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 770px) {
+    .slide-container, .slide-container3{
+        display: block;
+        width: 95%;
+        margin: 0px auto;
+
+    }
+
+    .slide, .slide3 {
+        width: 80%;
+        height: 300px;
+    }
+
+    .inner h4 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .inner p{
+        font-size: 10px;
+        width: 90%;
+        margin: 0px auto -60px auto;
+
+    }
+
+    .inner a {
+        margin-top: 70px;
+    }
+
+
+    .slide-container2 {
+        display: block;
+        width: 95%;
+        margin: 0px auto;
+        background-color: rgb(55, 54, 54);
+    }
+
+    .slide2 {
+        width: 80%;
+        height: 300px;
+    }
+
+    .inner2 h4 {
+        font-size: 20px;
+        margin-top: 450px;
+    }
+
+    .inner2 p {
+        font-size: 10px;
+        line-height: 2;
+        margin: -40px auto;
+        width: 90%;
+        color: white;
+        margin-bottom: 10px;
+    }
+    .inner3 h4 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .inner3 p{
+        font-size: 10px;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .backdrop-container {
+        width: 100%;
+        height: auto;
+    }
+    .backdrop{
+        width: 100%;
+        height: auto;
+    }
+    .card{
+        margin: 0px auto;
+    }
 }
