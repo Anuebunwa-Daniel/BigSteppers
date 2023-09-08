@@ -1,0 +1,35 @@
+.suite{
+    margin-bottom: 30px;
+}
+.about-suite{
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:60px;
+    margin: auto;
+}
+.first-slide{
+    padding: 10px;
+}
+.second-slide{
+    background-color: rgb(11, 67, 63);
+    width: 90%;
+
+}
+.side-bar{
+    margin: 0px auto;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.btnW{
+    background-color: white;
+    color:rgb(11, 67, 63) ;
+    border: none;
+    font-size: 20px;
+}
+.btnW:hover{
+    background-color: rgb(18, 135, 128);
+}

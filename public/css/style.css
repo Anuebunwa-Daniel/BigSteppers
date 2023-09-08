@@ -220,7 +220,6 @@ body {
 
 .item {
     height: 400px;
-    transition: filter 0.3s ease-in-out;
 }
 
 .item:hover {
@@ -247,13 +246,15 @@ body {
     margin-top: 40px;
     margin-bottom: 30px;
     background-color: rgb(217, 233, 233);
-    height: 250px;
+    height: auto;
+    padding-bottom: 10px;
+
 }
 
 .footer-logo {
     display: block;
     margin: 20px auto;
-    width: 50%;
+    width: 90%;
 }
 
 .footer-logo img {
@@ -265,35 +266,19 @@ body {
     text-align: center;
 }
 
-.back-top {
-    float: right;
-
-    width: 100px;
-    margin-top: -50px;
-
-}
-
-.back-top a {
-    color: gray;
-}
-
-.back-top i {
-    margin-left: 20px;
-}
-
-.back-top a:hover {
-    color: red;
-}
 
 @media only screen and (max-width: 770px) {
-    .slide-container, .slide-container3{
+
+    .slide-container,
+    .slide-container3 {
         display: block;
         width: 95%;
         margin: 0px auto;
 
     }
 
-    .slide, .slide3 {
+    .slide,
+    .slide3 {
         width: 80%;
         height: 300px;
     }
@@ -303,7 +288,7 @@ body {
         margin-top: 0px;
     }
 
-    .inner p{
+    .inner p {
         font-size: 10px;
         width: 90%;
         margin: 0px auto -60px auto;
@@ -340,25 +325,59 @@ body {
         color: white;
         margin-bottom: 10px;
     }
+
     .inner3 h4 {
         font-size: 20px;
         margin-top: 0px;
     }
 
-    .inner3 p{
+    .inner3 p {
         font-size: 10px;
         width: 90%;
         margin: 10px auto;
     }
+
     .backdrop-container {
         width: 100%;
         height: auto;
     }
-    .backdrop{
+
+    .backdrop {
         width: 100%;
         height: auto;
     }
-    .card{
+
+    .card {
         margin: 0px auto;
     }
+
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        width: 100%;
+        font-size: 17px;
+
+    }
+
+    .gallery {
+        width: 90%;
+    }
+
+    .item {
+        height: 300px;
+
+    }
+
+    .footer {
+
+    }
+
+    .footer-logo {
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
 }
