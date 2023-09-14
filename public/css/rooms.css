@@ -35,19 +35,25 @@
 }
 .about-room{
     border: 1px solid black;
-    width: 90%;
+    /* width: 90%; */
     height:700px;
     margin: 40px auto;
+    /* display: flex; */
     
 }
-.room-items{
-    width: 50%;
-    height: 100px;
+.slides{
+    /* margin: 30px 20px 20px 40px; */
+    width: 40%;
+    height: 400px;
     border : 1px solid black;
+}
+.slides li{
+    height: 300px;
+    width: 300px;
 }
 
 .room-slide {
-  height: 60%;
+  height: 100%;
   width: 100%;
 
 }
@@ -59,8 +65,8 @@
 
 .room-details{
     width: 40%;
-    height: 300px;
-   float: right;
-   /* margin-top: -100px; */
+    height: 400px;
+   margin:30px;
+  float: right;
    border : 1px solid black;
 }
